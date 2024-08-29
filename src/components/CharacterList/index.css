@@ -1,0 +1,21 @@
+.userInput-item {
+  display: flex;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.userInput-paragraph {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #272c47;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.userInput-span {
+   font-family: Roboto;
+  font-size: 25px;
+  color: #272c47;
+  font-weight: bold;
+}

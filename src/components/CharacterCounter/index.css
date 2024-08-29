@@ -1,0 +1,119 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  background-color: #ffc533;
+  border-radius: 15px 0px 0px 15px;
+  padding: 15px;
+  overflow: auto;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffbf1f;
+  padding: 30px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.result-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.no-userinput-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-userinput-image {
+  width: 400px;
+}
+
+.userinput-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 45px;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: #0f172a;
+  border-radius: 0px 15px 15px 0px;
+  padding: 15px;
+}
+
+.add-heading {
+  color: #ffc533;
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.add-input {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+  width: 72%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.add-button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  width: 25%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffc533;
+}
